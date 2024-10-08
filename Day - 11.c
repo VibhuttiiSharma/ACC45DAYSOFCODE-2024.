@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> // for abs function
+#include <stdlib.h> 
 
 int main() {
     int T;  
@@ -9,7 +9,7 @@ int main() {
         int X, Y;
         scanf("%d %d", &X, &Y);
         
-        int distance = abs(X - Y); // absolute difference between their positions
+        int distance = abs(X - Y); 
         printf("%d\n", distance);
     }
     
